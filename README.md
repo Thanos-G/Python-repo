@@ -6,7 +6,7 @@ FreeCodeCamp Olympic Winter Games challenges
 Day 3: Given an array of integers, where each value represents the number of targets hit in a single round of a biathlon, return the total penalty distance the athlete must ski.
 
 Each round consists of 5 targets.
-Each missed target results in a 150 meter penalty loop
+Each missed target results in a 150 meter penalty loop.
 #
 Day 6: Given an array of judge scores and optional penalties, calculate the final score for a figure skating routine.
 
@@ -32,4 +32,16 @@ Return:
 "Green" if the adjusted steepness is less than or equal to 0.1,
 "Blue" if the adjusted steepness is greater than 0.1 and less than or equal to 0.25,
 "Black" if the adjusted steepness is greater than 0.25
+#
+Day 14: Given the snow depth and slope of a mountain, determine if there's an avalanche risk.
+
+The snow depth values are "Shallow", "Moderate", or "Deep".
+Slope values are "Gentle", "Steep", or "Very Steep".
+
+Return "Safe" or "Risky" based on this table:
+|                  | "Shallow" | "Moderate" | "Deep"  |
+|------------------|:---------:|:----------:|:-------:|
+| "Gentle"         | Safe      | Safe       | Safe    |
+| "Steep"          | Safe      | Risky      | Risky   |
+| "Very Steep"     | Safe      | Risky      | Risky   |
 #
