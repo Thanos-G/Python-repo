@@ -14,3 +14,7 @@ The first argument is an array of 10 judge scores, each a number from 0 to 10. R
 
 Any additional arguments passed to the function are penalties. Subtract all penalties from the base score to get the final score.
 #
+Day 7: Given two arrays representing the lap times (in seconds) for two speed skaters, return the lap number where the difference in lap times is the largest.
+
+The first element of each array corresponds to lap 1, the second to lap 2, and so on.
+#
